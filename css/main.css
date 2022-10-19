@@ -553,12 +553,14 @@ button {
         top: -104px;
         z-index: 1;
         left: -100px;
+        opacity: .08;
     }
 
     .header__circle_orange {
         right: -298px;
         top: -586px;
     }
+    
 
     .header__circle_purple {
         left: 23vw;
