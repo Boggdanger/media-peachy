@@ -546,6 +546,27 @@ button {
     .run-line__txt:not(:last-of-type) {
         margin-right: 62px;
     }
+
+    .header__circle {
+        width: 435px;
+        height: 440px;
+        top: -104px;
+        z-index: 1;
+        left: -100px;
+    }
+
+    .header__circle_orange {
+        right: -298px;
+        top: -586px;
+    }
+
+    .header__circle_purple {
+        left: 23vw;
+        opacity: 0.25;
+        width: 541px;
+        height: 541px;
+        top: 193px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -584,4 +605,6 @@ button {
     .offer__circle-wrapper {
         top: 18px;
     }
+
+
 }
