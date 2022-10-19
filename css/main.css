@@ -83,6 +83,7 @@ button {
     color: #fff;
     overflow: hidden;
     position: relative;
+    padding-bottom: 20px;
 }
 
 .head-nav__inner {
@@ -296,6 +297,40 @@ button {
     left: auto;
 }
 
+/* 2 provide */
+
+.provide-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+    position: relative;
+    z-index: 4;
+}
+
+.provide-item {
+    width: 18%;
+    background: #fff;
+    border-radius: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 58px;
+    color: #270409;
+}
+
+.provide-item__svg {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    box-shadow: 0px 8px 16px rgb(244 67 54 / 14%);
+    margin-bottom: 19px;
+}
+
+
+
+
+
+
 
 @media (max-width: 1296px) {
     .container {
@@ -346,6 +381,18 @@ button {
 
     .offer__svg {
         right: 19px;
+    }
+
+    /* 2 provide */
+    .provide-item__svg {
+        width: 99px;
+        height: 99px;
+    }
+
+    .provide-item {
+        border-radius: 20px;
+        padding: 30px 0 40px;
+        color: #270409;
     }
 }
 
@@ -431,6 +478,24 @@ button {
         margin-right: 88px;
     }
 
+    /* 2 provide */
+    .provide-list {
+        margin-top: -95px;
+    }
+
+    .provide-item {
+        width: 19%;
+        padding: 20px 8px 26px;
+        text-align: center;
+    }
+
+    .provide-item__svg {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 14px;
+        
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -491,6 +556,19 @@ button {
 
     .btn_header {
         margin: 0 auto;
+    }
+
+    .provide-list {
+        flex-wrap: wrap;
+    }
+
+    .provide-item {
+        width: 32%;
+    }
+
+    .provide-item:nth-last-child(-n+2) {
+        width: 49%;
+        margin-top: 10px;
     }
 }
 
@@ -560,7 +638,6 @@ button {
         right: -298px;
         top: -586px;
     }
-    
 
     .header__circle_purple {
         left: 23vw;
@@ -568,6 +645,29 @@ button {
         width: 541px;
         height: 541px;
         top: 193px;
+    }
+
+    /* 2 provide */
+    .provide-list {
+        margin-top: 7px;
+    }
+
+    .provide-item:nth-last-child(-n+2) {
+        width: 49%;
+        margin-top: 0px;
+    }
+
+    .provide-item {
+        width: 49%;
+        margin-bottom: 2vw;
+    }
+
+    .provide-item:last-child {
+        width: 100%;
+    }
+
+    .provide-item__svg {
+        margin-bottom: 10px;
     }
 }
 
