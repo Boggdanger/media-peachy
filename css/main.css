@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 /*specifications*/
 body {
@@ -69,12 +69,17 @@ button {
     transition: box-shadow 0.5s ease, background 0.5s ease, transform 0.5s ease;
 }
 
+.h2-title {
+    font-size: 42px;
+    font-weight: 700;
+}
+
 .title__line {
     display: block;
     width: 42px;
     height: 3px;
     background: #FC7749;
-    margin: 14px 0 30px;
+    margin: 23px 0 30px;
 }
 
 /* header */
@@ -130,7 +135,7 @@ button {
     display: flex;
     margin-top: 77px;
     position: relative;
-    margin-bottom: 200px;
+    margin-bottom: 170px;
 }
 
 .offer__svg {
@@ -226,7 +231,6 @@ button {
 .run-line {
     height: 250px;
     position: relative;
-    /* overflow: hidden; */
 }
 
 .run-line__item {
@@ -284,7 +288,7 @@ button {
 .header__circle_purple {
     background: #7958D6;
     left: 23vw;
-    opacity: 0.12;
+    opacity: 0.18;
     width: 570px;
     height: 570px;
     top: 100px;
@@ -302,13 +306,13 @@ button {
 .provide-list {
     display: flex;
     justify-content: space-between;
-    margin-top: -50px;
+    margin-top: -20px;
     position: relative;
     z-index: 4;
 }
 
 .provide-item {
-    width: 18%;
+    width: 19%;
     background: #fff;
     border-radius: 26px;
     display: flex;
@@ -328,6 +332,136 @@ button {
 
 
 
+/* 3 about */
+.about {
+    background: #212121;
+    margin-top: -1px;
+    padding: 120px 0 145px;
+    overflow: hidden;
+}
+
+.about-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.about-img {
+    width: 600px;
+    height: 635px;
+    position: relative;
+    margin-left: 44px;
+    z-index: 5;
+}
+
+.about-img__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.about-img__digit {
+    position: absolute;
+    width: 160px;
+    height: 136px;
+    background: #7958D6;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 22px;
+    margin-bottom: 5px;
+    padding: 20px 10px;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.08);
+}
+
+.about-img__digit-item {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+
+.about-img__digit-txt {
+    text-align: center;
+    opacity: .8;
+}
+
+.about-img__digit:nth-child(1){
+    left: -42px;
+    top: 80px;
+}
+
+.about-img__digit:nth-child(2) {
+    background: #fff;
+    color: #212121;
+    bottom: 89px;
+    left: -13px;
+}
+
+.about-img__digit:nth-child(3) {
+    background: #fff;
+    color: #212121;
+    top: 113px;
+    left: auto;
+    right: -42px;
+}
+
+.about-img__digit:nth-child(4) {
+    bottom: 113px;
+    left: auto;
+    right: -42px;
+}
+
+.about-img__digit-item_purp {
+    color: #7958D6;
+}
+
+.about-txt {
+    color: #fff;
+    width: 526px;
+    margin-left: auto;
+    position: relative;
+    z-index: 5;
+}
+
+.about-txt__title-wrapper {
+    margin-bottom: 30px;
+}
+
+.about-txt__txt {
+    line-height: 1.6em;
+    font-weight: 300;
+}
+
+.about-txt__txt_big {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.btn_about {
+    margin-top: 60px;
+}
+
+.about-wrapper__circle {
+    border-radius: 50%;
+    position: absolute;
+    background: #FC7749;
+    opacity: 0.16;
+    filter: blur(67px);
+    width: 523px;
+    height: 523px;
+    top: 0;
+    z-index: 1;
+    left: -100px;
+}
+
+.about-wrapper__circle_purple {
+    background: #7958D6;
+    left: 17vw;
+    top: 225px;
+    opacity: .25;
+}
 
 
 
@@ -393,6 +527,73 @@ button {
         border-radius: 20px;
         padding: 30px 0 40px;
         color: #270409;
+    }
+
+
+    /* 3 about */
+    .about {
+        padding: 56px 0 90px;
+    }
+
+    .about-img {
+        width: 447px;
+        height: 502px;
+        position: relative;
+        margin-left: 44px;
+        z-index: 5;
+    }
+
+    .about-img__digit {
+        position: absolute;
+        width: 142px;
+        height: 122px;
+        padding: 14px 10px;
+    }
+
+    .about-img__digit-item {
+        font-size: 26px;
+    }
+
+    .about-img__digit-txt {
+        font-size: 15px;
+    }
+
+    .about-txt__title-wrapper {
+        margin-bottom: 22px;
+    }
+
+    .h2-title {
+        font-size: 36px;
+    }
+
+    .about-txt__title-wrapper .title__line {
+        margin: 16px 0 0px;
+    }
+
+    .about-txt {
+        width: 386px;
+    }
+
+    .about-txt__txt_big {
+        font-size: 19px;
+        margin-bottom: 12px;
+    }
+
+    .btn_about {
+        margin-top: 30px;
+    }
+
+    .about-wrapper__circle {
+        filter: blur(67px);
+        width: 406px;
+        height: 406px;
+        top: 30px;
+        left: -73px;
+    }
+
+    .about-wrapper__circle_purple {
+        left: 15vw;
+        top: 149px;
     }
 }
 
@@ -493,9 +694,32 @@ button {
         width: 90px;
         height: 90px;
         margin-bottom: 14px;
-        
     }
 
+
+    /* 3 about */
+    .about-wrapper {
+        flex-direction: column;
+    }
+
+    .about-img {
+        margin-left: 0px;
+    }
+
+    .about-txt {
+        width: 88%;
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+
+    .about-wrapper__circle {
+        left: 0;
+    }
+
+    .about-wrapper__circle_purple {
+        left: auto;
+        right: 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -570,6 +794,13 @@ button {
         width: 49%;
         margin-top: 10px;
     }
+
+    /* 3 about */
+    .about-txt {
+        width: 100%;
+    }
+
+
 }
 
 
@@ -577,6 +808,11 @@ button {
 	.container {
         width: 100%;
         padding: 0 15px;
+    }
+
+    
+    .btn {
+        width: 100%;
     }
 
     .head-nav__inner {
@@ -607,10 +843,6 @@ button {
     .offer__desc {
         font-size: 5.5vw;
         margin-top: 38px;
-    }
-
-    .btn_header {
-        width: 100%;
     }
 
     .run-line {
@@ -668,6 +900,47 @@ button {
 
     .provide-item__svg {
         margin-bottom: 10px;
+    }
+
+    /* 3 about */
+    .about-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-img__digit {
+        width: 48.5%;
+        height: 110px;
+        display: none;
+    }
+
+    .about-img__digit:nth-child(1) {
+        left: 0;
+        top: auto;
+        bottom: -38vw;
+    }
+
+    .about-img__digit:nth-child(2) {
+        left: auto;
+        right: 0;
+        bottom: -38vw;
+    }
+
+    .about-img__digit:nth-child(3) {
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: -68vw;
+    }
+
+    .about-img__digit:nth-child(4) {
+        bottom: -68vw;
+        left: auto;
+        right: 0;
+    }
+
+    .btn_about {
+        margin-top: 44px;
     }
 }
 
