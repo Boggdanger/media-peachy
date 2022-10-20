@@ -1,3 +1,5 @@
+gsap.registerPlugin(ScrollTrigger);
+
 // run line
 gsap.to(".run-line__item-inner_one", {
     scrollTrigger: {
