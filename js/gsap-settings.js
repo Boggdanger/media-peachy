@@ -8,7 +8,7 @@ gsap.to(".run-line__item-inner_one", {
         start: "-70vh bottom",
         // markers: true,
     },
-    x:-260,
+    x:-360,
     ease: "none",
     
 });
@@ -19,7 +19,7 @@ gsap.to(".run-line__item-inner_two", {
         scrub: 1.4,
         start: "-70vh bottom",
     },
-    x:220,
+    x: 320,
     ease: "none",
 });
 
