@@ -1107,16 +1107,7 @@ button {
     }
 
     .about-wrapper__circle {
-        filter: blur(67px);
-        width: 383px;
-        height: 383px;
-    }
-
-    .about-wrapper__circle {
-        filter: blur(67px);
-        width: 269px;
-        height: 269px;
-        top: 200px;
+        display: none;
     }
 
     /* 3 about */
