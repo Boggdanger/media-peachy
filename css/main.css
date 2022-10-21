@@ -248,6 +248,11 @@ button {
     z-index: 4;
 }
 
+.run-line__item-inner_two,
+.run-line__item-inner_one {
+    display: flex;
+}
+
 .run-line__item:last-of-type {
     transform: rotate(356deg);
     background: #8E6BEE;
