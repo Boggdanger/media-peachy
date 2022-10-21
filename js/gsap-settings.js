@@ -22,3 +22,28 @@ gsap.to(".run-line__item-inner_two", {
     x:220,
     ease: "none",
 });
+
+scrTxt.add("(max-width: 768px)", () => {
+    // scroll
+    gsap.to(".run-line__item-inner_one", {
+        scrollTrigger: {
+            trigger: ".run-line",
+            scrub: 1.4,
+            start: "top bottom",
+            // markers: true,
+        },
+        x:-260,
+        ease: "none",
+        
+    });
+
+    gsap.to(".run-line__item-inner_two", {
+        scrollTrigger: {
+            trigger: ".run-line",
+            scrub: 1.4,
+            start: "top bottom",
+        },
+        x:250,
+        ease: "none",
+    });
+});
