@@ -6,7 +6,7 @@ gsap.to(".run-line__item-inner_one", {
         trigger: ".run-line",
         scrub: 1.4,
         start: "-70vh bottom",
-        markers: true,
+        // markers: true,
     },
     x:-260,
     ease: "none",

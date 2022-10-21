@@ -463,6 +463,77 @@ button {
     opacity: .25;
 }
 
+/* 4 path */
+.path {
+    background: #F4F4F4;
+    padding: 130px 0 154px;
+}
+
+.subtitle-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.path-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.path-item {
+    width: 32%;
+    height: 760px;
+    background: #fff;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.09);
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px 40px;
+}
+
+.path-item__icon {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    background: #F7F5FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.path-item__svg {
+    width: 47%;
+    height: 47%;
+    object-fit: contain;
+    display: block;
+}
+
+.path-item__name {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    width: 92%;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+}
+
+.path-item__desc {
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #565656;
+}
+
+.path-item__price-wrapper {
+    display: flex;
+}
+
+.path-item__icon-price {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
 
 
 
