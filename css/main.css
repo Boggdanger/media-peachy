@@ -671,7 +671,6 @@ button {
 
     .h2-title {
         font-size: 36px;
-        text-align: center;
     }
 
     .about-txt__title-wrapper .title__line {
@@ -999,6 +998,14 @@ button {
         font-size: 11px;
     }
 
+    .header__circle {
+        display: none;
+    }
+
+    .about-wrapper__circle {
+        display: none;
+    }
+
 }
 
 
@@ -1107,7 +1114,10 @@ button {
     }
 
     .about-wrapper__circle {
-        display: none;
+        filter: blur(28px);
+        width: 383px;
+        height: 383px;
+        opacity: .1;
     }
 
     /* 3 about */
