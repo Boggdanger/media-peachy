@@ -4,21 +4,21 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.to(".run-line__item-inner_one", {
     scrollTrigger: {
         trigger: ".run-line",
-        scrub: 1,
+        scrub: 1.4,
         start: "-70vh bottom",
+        markers: true,
     },
-    x:-200,
-    duration: 2,
+    x:-260,
     ease: "none",
+    
 });
 
 gsap.to(".run-line__item-inner_two", {
     scrollTrigger: {
         trigger: ".run-line",
-        scrub: 1,
+        scrub: 1.4,
         start: "-70vh bottom",
     },
-    x:200,
-    duration: 2,
+    x:220,
     ease: "none",
 });
