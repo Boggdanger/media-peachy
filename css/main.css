@@ -303,6 +303,10 @@ button {
 
 /* 2 provide */
 
+.list {
+    background: #212121;
+}
+
 .provide-list {
     display: flex;
     justify-content: space-between;
