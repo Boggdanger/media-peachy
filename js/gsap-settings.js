@@ -23,6 +23,29 @@ gsap.to(".run-line__item-inner_two", {
     ease: "none",
 });
 
+// run line
+gsap.to(".run-line__item-inner_one-contact", {
+    scrollTrigger: {
+        trigger: ".run-line_contact",
+        scrub: 1.4,
+        start: "-70vh bottom",
+        // markers: true,
+    },
+    x:-360,
+    ease: "none",
+    
+});
+
+gsap.to(".run-line__item-inner_two-contact", {
+    scrollTrigger: {
+        trigger: ".run-line_contact",
+        scrub: 1.4,
+        start: "-70vh bottom",
+    },
+    x: 320,
+    ease: "none",
+});
+
 // scrTxt.add("(max-width: 768px)", () => {
 //     // scroll
 //     gsap.to(".run-line__item-inner_one", {
