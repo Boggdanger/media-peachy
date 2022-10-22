@@ -1699,6 +1699,10 @@ button {
     }
 
     /* 6 form */
+    .accordion {
+        margin-bottom: 128px;
+    }
+
     .form-wrapper {
         padding-top: 148px;
     }
