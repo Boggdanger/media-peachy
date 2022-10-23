@@ -980,11 +980,15 @@ button {
 
 
 @media (max-width: 1296px) {
+    .cursor2 {
+        display: none;
+    }
+
     .container {
         width: 960px;
     }
 
-    .head-nav ul li:not(:first-of-type) {
+    .head-nav__inner nav ul li:not(:first-of-type) {
         margin-left: 42px;
     }
 
@@ -1209,9 +1213,6 @@ button {
 
 
 @media (max-width: 991px) {
-    .cursor2 {
-        display: none;
-    }
 
 	.container {
         width: 720px;
@@ -1222,7 +1223,7 @@ button {
         height: 22px;
     }
 
-    .head-nav ul li:not(:first-of-type) {
+    .head-nav__inner nav ul li:not(:first-of-type) {
         margin-left: 28px;
     }
 
