@@ -1,3 +1,4 @@
+  // path mobile
   $('.mobile-path-inner').slick({
     dots: true,
     infinite: false,
@@ -6,21 +7,7 @@
     centerMode: true,
   });
 
-  // $('.rewiev-slider').slick({
-  //   dots: true,
-  //   infinite: false,
-  //   speed: 300,
-  //   slidesToShow: 2,
-  //   centerMode: false,
-  // });
-
-  // $('.rewiev-slider').slick({
-  //   slidesToShow: 3,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   autoplaySpeed: 2000,
-  // });
-
+  // rewiews mobile
   $('.rewiev-slider').slick({
     dots: true,
     infinite: false,
@@ -36,29 +23,10 @@
           centerMode: true,
         }
       },
-      // {
-      //   breakpoint: 600,
-      //   settings: {
-      //     slidesToShow: 2,
-      //     slidesToScroll: 2
-      //   }
-      // },
-      // {
-      //   breakpoint: 480,
-      //   settings: {
-      //     slidesToShow: 1,
-      //     slidesToScroll: 1
-      //   }
-      // }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
   });
 
-
-
-
+// faq
 var acc = document.getElementsByClassName("accordion-item__btn");
 var i;
 
@@ -72,4 +40,47 @@ for (i = 0; i < acc.length; i++) {
       panel.style.maxHeight = panel.scrollHeight + "px";
     } 
   });
+}
+
+
+  //  custom cursor
+  var cursorinner = document.querySelector('.cursor2');
+  var ab = document.querySelectorAll('a, button');
+
+  document.addEventListener('mousemove', function(e){
+    var x = e.clientX;
+    var y = e.clientY;
+  });
+
+  document.addEventListener('mousemove', function(e){
+    var x = e.clientX;
+    var y = e.clientY;
+    cursorinner.style.left = x + 'px';
+    cursorinner.style.top = y + 'px';
+  });
+
+  document.addEventListener('mousedown', function(){
+    cursorinner.classList.add('cursorinnerhover')
+  });
+
+  document.addEventListener('mouseup', function(){
+    cursorinner.classList.remove('cursorinnerhover')
+  });
+
+
+
+  
+  const anchors = document.querySelectorAll('a[href*="#"]')
+
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault()
+    
+    const blockID = anchor.getAttribute('href').substr(1)
+    
+    document.getElementById(blockID).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  })
 }
