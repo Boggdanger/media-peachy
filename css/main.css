@@ -105,7 +105,7 @@ button {
 
 /* header */
 .header {
-    background:url('../img/1-head-bg.jpg') no-repeat top center/contain, #1b1b1b;
+    background:url('../img/1-head-bg.jpg') no-repeat top center/cover, #1b1b1b;
     color: #fff;
     overflow: hidden;
     position: relative;
@@ -373,7 +373,7 @@ button {
 
 /* 3 about */
 .about {
-    background:url('../img/2-about-bg.jpg') no-repeat bottom center/cover, #1b1b1b;
+    background:url('../img/2-about-bg.jpg') no-repeat bottom center/contain, #1b1b1b;
     margin-top: -1px;
     padding: 120px 0 145px;
     overflow: hidden;
@@ -822,7 +822,7 @@ button {
 }
 
 .contact {
-    background: url('../img/4form-bg.jpg')no-repeat top center/contain, #1b1b1b;
+    background: url('../img/4form-bg.jpg')no-repeat top center/cover, #1b1b1b;
     position: relative;
     z-index: 5;
 }
@@ -1309,6 +1309,10 @@ button {
 
     /* 3 about */
     .about {
+        background: #1b1b1b;
+    }
+
+    .about {
         padding: 74px 0 143px;
     }
 
@@ -1423,7 +1427,7 @@ button {
         padding: 26px 0;
     }
 
-    .head-nav ul {
+    .head-nav__inner nav ul {
         display: none;
     }
 
