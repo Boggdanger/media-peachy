@@ -217,6 +217,8 @@ button {
 .offer__title {
     font-size: 55px;
     font-weight: 700;
+    position: relative;
+    z-index: 22;
 }
 
 .offer__desc {
