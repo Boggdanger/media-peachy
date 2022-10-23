@@ -1209,6 +1209,10 @@ button {
 
 
 @media (max-width: 991px) {
+    .cursor2 {
+        display: none;
+    }
+
 	.container {
         width: 720px;
     }
