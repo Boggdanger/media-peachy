@@ -69,8 +69,8 @@ for (i = 0; i < acc.length; i++) {
 
 
 
-  
-  const anchors = document.querySelectorAll('a[href*="#"]')
+// плавный скролл
+const anchors = document.querySelectorAll('a[href*="#"]')
 
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
@@ -84,3 +84,68 @@ for (let anchor of anchors) {
     })
   })
 }
+
+
+ //modal contact
+ $('.btn_contact').on('click', function(){
+  $('.popup_contact').toggleClass('popup_active');
+  $('body').addClass('no-scroll');
+});
+
+$('.popup-form__close').on('click', function(){
+  $('.popup_contact').removeClass('popup_active');
+  $('body').removeClass('no-scroll');
+});
+
+$('.popup__bg').on('click', function(){
+  $('.popup_contact').removeClass('popup_active');
+  $('body').removeClass('no-scroll');
+});
+
+//path 1
+$('.btn-puth_one').on('click', function(){
+  $('.popup_prod-one').toggleClass('popup_active');
+  $('body').addClass('no-scroll');
+});
+
+$('.popup-form__close').on('click', function(){
+  $('.popup_prod-one').removeClass('popup_active');
+  $('body').removeClass('no-scroll');
+});
+
+$('.popup__bg').on('click', function(){
+  $('.popup_prod-one').removeClass('popup_active');
+  $('body').removeClass('no-scroll');
+});
+
+//path 2
+$('.btn-puth_two').on('click', function(){
+  $('.popup_prod-two').toggleClass('popup_active');
+  $('body').addClass('no-scroll');
+});
+
+$('.popup-form__close').on('click', function(){
+  $('.popup_prod-two').removeClass('popup_active');
+  $('body').removeClass('no-scroll');
+});
+
+$('.popup__bg').on('click', function(){
+  $('.popup_prod-two').removeClass('popup_active');
+  $('body').removeClass('no-scroll');
+});
+
+//path 3
+$('.btn-puth_three').on('click', function(){
+  $('.popup_prod-three').toggleClass('popup_active');
+  $('body').addClass('no-scroll');
+});
+
+$('.popup-form__close').on('click', function(){
+  $('.popup_prod-three').removeClass('popup_active');
+  $('body').removeClass('no-scroll');
+});
+
+$('.popup__bg').on('click', function(){
+  $('.popup_prod-three').removeClass('popup_active');
+  $('body').removeClass('no-scroll');
+});

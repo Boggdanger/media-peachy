@@ -23,6 +23,95 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+    <!-- contact popup -->
+    <div class="popup popup_contact">
+        <div class="popup-form">
+            <button type="button" class="popup-form__close"></button>
+            <h3 class="contact-form__title">
+                Order promotion
+            </h3>
+            <p class="contact-form__description">
+                Заполните форму или напишите на почту: 
+                <a href="mailto:elenamartyniuk1@gmail.com" class="contact-form__mail">
+                    Elenamartyniuk1@gmail.com
+                </a>
+                Мы с вами свяжемся и ответим на все вопросы
+            </p>
+            <form action="#" class="contact-form__form">
+                <input type="text" placeholder="Enter your name *" class="contact-form__input">
+                <input type="text" placeholder="Enter your email address *" class="contact-form__input" required>
+                <button type="submit" class="btn btn_form">
+                    Start now
+                </button>
+            </form>
+        </div>
+        <div class="popup__bg"></div>
+    </div>
+    <!-- product 1 popup -->
+    <div class="popup popup_prod-one">
+        <div class="popup-form">
+            <button type="button" class="popup-form__close"></button>
+            <h3 class="contact-form__title">
+                Order promotion
+            </h3>
+            <p class="contact-form__description">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+            </p>
+            <form action="#" class="contact-form__form">
+                <input type="text" placeholder="Enter your name *" class="contact-form__input">
+                <input type="text" placeholder="Enter your email address *" class="contact-form__input" required>
+                <button type="submit" class="btn btn_form">
+                    Start now
+                </button>
+            </form>
+        </div>
+        <div class="popup__bg"></div>
+    </div>
+    <!-- product 2 popup -->
+    <div class="popup popup_prod-two">
+        <div class="popup-form">
+            <button type="button" class="popup-form__close"></button>
+            <h3 class="contact-form__title">
+                Order promotion
+            </h3>
+            <p class="contact-form__description">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+            </p>
+            <form action="#" class="contact-form__form">
+                <input type="text" placeholder="Enter your name *" class="contact-form__input">
+                <input type="text" placeholder="Enter your email address *" class="contact-form__input" required>
+                <button type="submit" class="btn btn_form">
+                    Start now
+                </button>
+            </form>
+        </div>
+        <div class="popup__bg"></div>
+    </div>
+    <!-- product 3 popup -->
+    <div class="popup popup_prod-three">
+        <div class="popup-form">
+            <button type="button" class="popup-form__close"></button>
+            <h3 class="contact-form__title">
+                Order promotion
+            </h3>
+            <p class="contact-form__description">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+            </p>
+            <form action="#" class="contact-form__form">
+                <input type="text" placeholder="Enter your name *" class="contact-form__input">
+                <input type="text" placeholder="Enter your email address *" class="contact-form__input" required>
+                <button type="submit" class="btn btn_form">
+                    Start now
+                </button>
+            </form>
+        </div>
+        <div class="popup__bg"></div>
+    </div>
+
+
     <header class="header" id="header">
         <div class="head-nav">
             <div class="container">
@@ -54,9 +143,9 @@
                             </li>
                         </ul>
                     </nav>
-                    <a href="#" class="head-btn btn">
+                    <button type="button" class="head-btn btn btn_contact">
                         Contact
-                    </a>
+                    </button>
                 </div>
                 
             </div>
@@ -85,7 +174,7 @@
                     <p class="offer__desc">
                         Using our local SEO services, your business will be elevated to new heights in no time!
                     </p>
-                    <a href="#" class="btn btn_header">
+                    <a href="#contact" class="btn btn_header">
                         Start now
                     </a>
                     <img src="./img/Vector-lines.svg" class="offer__svg">
@@ -302,7 +391,7 @@
                         Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur 
                         magni dolores eos qui ratione voluptatem sequi nesciunt. Ut enim ad minima veniam? 
                     </p>
-                    <a href="#" class="btn btn_about">
+                    <a href="#" class="btn btn_about btn_contact">
                         Start now
                     </a>
                 </div>
@@ -342,9 +431,9 @@
                             </span>
                         </p>
                     </div>
-                    <a href="#" class="btn btn_path">
+                    <button type="button" class="btn btn_path btn-puth_one">
                         Start now
-                    </a>
+                    </button>
                 </div>
                 <div class="path-item">
                     <div class="path-item__icon">
@@ -368,9 +457,9 @@
                             </span>
                         </p>
                     </div>
-                    <a href="#" class="btn btn_path">
+                    <button type="button" class="btn btn_path btn-puth_two">
                         Start now
-                    </a>
+                    </button>
                 </div>
                 <div class="path-item">
                     <div class="path-item__icon">
@@ -394,9 +483,9 @@
                             </span>
                         </p>
                     </div>
-                    <a href="#" class="btn btn_path">
+                    <button type="button" class="btn btn_path btn-puth_three">
                         Start now
-                    </a>
+                    </button>
                 </div>
             </div>
         </div>
@@ -423,9 +512,9 @@
                         </span>
                     </p>
                 </div>
-                <a href="#" class="btn btn_path">
+                <button type="button" class="btn btn_path btn-puth_one">
                     Start now
-                </a>
+                </button>
             </div>
             <div class="path-item">
                 <div class="path-item__icon">
@@ -449,9 +538,9 @@
                         </span>
                     </p>
                 </div>
-                <a href="#" class="btn btn_path">
+                <button type="button" class="btn btn_path btn-puth_two">
                     Start now
-                </a>
+                </button>
             </div>
             <div class="path-item">
                 <div class="path-item__icon">
@@ -475,9 +564,9 @@
                         </span>
                     </p>
                 </div>
-                <a href="#" class="btn btn_path">
+                <button type="button" class="btn btn_path btn-puth_three">
                     Start now
-                </a>
+                </button>
             </div>
         </div>
     </section>
@@ -489,6 +578,23 @@
             <span class="title__line"></span>
         </div>
         <div class="rewiev-slider">
+             <div class="rewiev-item">
+                <img src="./img/rev-1.jpg" alt="Review" class="rewiev-item__img">
+                <div class="rewiev-item__wrapper">
+                    <div class="rewiev-item__rev">
+                        <div class="rewiev-item__name">
+                            <img src="./img/men.jpg" alt="Avatar" class="rewiev-item__ava">
+                            <p class="rewiev-item__user-name">
+                                Name Surname
+                            </p>
+                        </div>
+                        <p class="rewiev-item__txt">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                        </p>
+                    </div>
+                </div>
+            </div> -->
             <div class="rewiev-item">
                 <img src="./img/rev-1.jpg" alt="Review" class="rewiev-item__img">
                 <div class="rewiev-item__wrapper">
@@ -505,7 +611,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="rewiev-item">
                 <img src="./img/rev-1.jpg" alt="Review" class="rewiev-item__img">
                 <div class="rewiev-item__wrapper">
@@ -522,7 +628,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="rewiev-item">
                 <img src="./img/rev-1.jpg" alt="Review" class="rewiev-item__img">
                 <div class="rewiev-item__wrapper">
@@ -539,7 +645,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="rewiev-item">
                 <img src="./img/rev-1.jpg" alt="Review" class="rewiev-item__img">
                 <div class="rewiev-item__wrapper">
@@ -556,7 +662,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="rewiev-item">
                 <img src="./img/rev-1.jpg" alt="Review" class="rewiev-item__img">
                 <div class="rewiev-item__wrapper">
@@ -573,24 +679,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="rewiev-item">
-                <img src="./img/rev-1.jpg" alt="Review" class="rewiev-item__img">
-                <div class="rewiev-item__wrapper">
-                    <div class="rewiev-item__rev">
-                        <div class="rewiev-item__name">
-                            <img src="./img/men.jpg" alt="Avatar" class="rewiev-item__ava">
-                            <p class="rewiev-item__user-name">
-                                Name Surname
-                            </p>
-                        </div>
-                        <p class="rewiev-item__txt">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-                        </p>
-                    </div>
-                </div>
-            </div>
+            </div> -->
         </div>
         <!-- <div class="about-wrapper__circle about-wrapper__circle_review"></div>
         <div class="about-wrapper__circle about-wrapper__circle_purple about-wrapper__circle_review"></div>
@@ -670,7 +759,7 @@
                 </div>
             </div>
         </div>
-        <div class="contact">
+        <div class="contact" id="contact">
             <div class="run-bot-inner">
                 <div class="run-line run-line_contact">
                     <div class="run-line__item">
